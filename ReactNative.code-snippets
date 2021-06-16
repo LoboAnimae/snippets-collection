@@ -1,0 +1,57 @@
+{
+    "React Native Function/Stateless Component": {
+        "prefix": "rnf",
+        "body": [
+            "import React from 'react'",
+            "",
+            "import { Text, View } from 'react-native';",
+            "const ${1:ComponentName} = (${2:props}) => {",
+            "    return (",
+            "      <View>",
+            "        <Text>",
+            "            $0",
+            "        </Text>",
+            "      </View>",
+            "    );",
+            "};",
+            "",
+            "export default ${1:ComponentName}",
+            ""
+        ],
+        "description": "React Native Function/Stateless Component"
+    },
+    "React Native Create Stateful Component": {
+        "prefix": "rnc",
+        "body": [
+            "import React, { Component } from 'react'",
+            "",
+            "import { View, StyleSheet, Text } from 'react-native'",
+            "",
+            "class ${1:${TM_FILENAME_BASE}} extends Component {",
+            "  constructor( props ) {",
+            "    super( props )",
+            "    this.state = {}",
+            "  }",
+            "",
+            "  render() {",
+            "    return (",
+            "        <View style={styles.container}>",
+            "            <Text>",
+            "                $0",
+            "            </Text>",
+            "        </View>",
+            "    )",
+            "  }",
+            "}",
+            "",
+            "const styles = StyleSheet.create( ",
+            "  {",
+            "    container: {}",
+            "  }",
+            ")",
+            "",
+            "export default ${1:TM_FILENAME_BASE}"
+        ],
+        "description": "React Native Create Stateful Component"
+    }
+}
