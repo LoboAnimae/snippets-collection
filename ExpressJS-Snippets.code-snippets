@@ -1,26 +1,26 @@
 {
-    "ExpressJS Post Decontstructed Async": {
+    "ExpressJS Post Deconstructed Async": {
         "prefix": "exap",
         "body": [
-            "async function ${2:AccompaningFunction} ({${3:Parameters}}) {",
+            "async function ${2:AccompanyingFunction} ({${3:Parameters}}) {",
             "  $0",
             "  return 0",
             "}",
             "",
-            "router.post('/$1', async (req, res, next) => { res.send(await ${2:AccompaningFunction}(req.body))})"
+            "router.post('/$1', async (req, res, next) => { res.send(await ${2:AccompanyingFunction}(req.body))})"
         ],
-        "description": "ExpressJS Post Decontstructed Async"
+        "description": "ExpressJS Post Deconstructed Async"
     },
-    "ExpressJS Get Decontstructed Async": {
+    "ExpressJS Get Deconstructed Async": {
         "prefix": "exag",
         "body": [
-            "async function ${2:AccompaningFunction} () {",
+            "async function ${2:AccompanyingFunction} () {",
             "  $0",
             "  return 0",
             "}",
             "",
-            "router.get('/$1', async (req, res, next) => { res.send(await ${2:AccompaningFunction}())})"
+            "router.get('/$1', async (req, res, next) => { res.send(await ${2:AccompanyingFunction}())})"
         ],
-        "description": "ExpressJS Get Decontstructed Async"
+        "description": "ExpressJS Get Deconstructed Async"
     }
 }
